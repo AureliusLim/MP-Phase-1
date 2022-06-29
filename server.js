@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 3000;
 const express = require('express');
 const app = express();
 const bcrypt = require('bcrypt');
@@ -497,4 +498,4 @@ app.post('/delete-game', (req, res)=>{
         })
 })
 
-app.listen(3000)
+app.listen(PORT);

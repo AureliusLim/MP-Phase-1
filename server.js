@@ -375,15 +375,15 @@ app.post('/add-game',(req,res)=>{
             const image1 = req.files.image1
             const image2 = req.files.image2
         
-            image2.mv(path.resolve(__dirname,'Images/GAMESPHOTOS',image2.name), (err)=>{
+            image2.mv(path.resolve(__dirname,'Images/GAMES PHOTOS',image2.name), (err)=>{
             });
-            image1.mv(path.resolve(__dirname,'Images/GAMESPHOTOS',image1.name), (err)=>{
+            image1.mv(path.resolve(__dirname,'Images/GAMES PHOTOS',image1.name), (err)=>{
             });
         
             var newgame = {
                 title: req.body.title,
-                image1: "Images/GAMESPHOTOS/" + image1.name,
-                image2: "Images/GAMESPHOTOS/" + image2.name,
+                image1: "Images/GAMES PHOTOS/" + image1.name,
+                image2: "Images/GAMES PHOTOS/" + image2.name,
                 description: req.body.description,
                 genre: req.body.genre,
             }

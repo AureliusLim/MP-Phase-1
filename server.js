@@ -14,7 +14,7 @@ require('dotenv').config();
 //const bodyparser = require('body-parser')
 var currgame;
 acc = ""
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://0.0.0.0/AccountDB',{useNewURLParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.MONGO_URI || 'mongodb://0.0.0.0/AccountDB',{useNewURLParser: true, useUnifiedTopology: true});
 
 app.set('view-engine', 'hbs');
 app.set('views','./HTML/views');

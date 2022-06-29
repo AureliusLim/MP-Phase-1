@@ -5,7 +5,7 @@ function checker(event){
     event.preventDefault();
   }
   else{
-      location.href = "http://localhost:3000/delete-profile";
+      location.href = "/delete-profile";
   }
 }
 
@@ -24,7 +24,7 @@ function viewprof(){
 
 function getGame(game){
   $.get('/get-game', {word:game }, function(){})
-  location.href="http://localhost:3000/game-direct";
+  location.href="/game-direct";
 }
 
 function loadFile(event){

@@ -6,15 +6,15 @@ const mongoose = require('mongoose');
 const flash = require('express-flash')
 const session = require('express-session');
 const hbs = require("hbs");
-const Account = require('./database/models/account');
+const Account = require('./database/models/Account');
 const fileUpload = require('express-fileupload');
 const path = require('path');
 const fs = require('fs');
-
+require('dotenv').config();
 //const bodyparser = require('body-parser')
 var currgame;
 acc = ""
-mongoose.connect('mongodb://0.0.0.0/AccountDB',{useNewURLParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://0.0.0.0/AccountDB',{useNewURLParser: true, useUnifiedTopology: true});
 
 app.set('view-engine', 'hbs');
 app.set('views','./HTML/views');

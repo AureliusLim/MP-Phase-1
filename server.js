@@ -1,7 +1,7 @@
 var PORT = process.env.PORT || 3000;
 const express = require('express');
 const app = express();
-const bcrypt = require('bcrypt');
+//const bcrypt = require('bcryptjs');
 const mongoose = require('mongoose');
 const flash = require('express-flash')
 const session = require('express-session');

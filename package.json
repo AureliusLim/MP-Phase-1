@@ -2,8 +2,8 @@
   "name": "mp-phase-1",
   "version": "1.0.0",
   "description": "",
-  "engines":{
-    "node" : "16.14.2"
+  "engines": {
+    "node": "16.14.2"
   },
   "main": "server.js",
   "scripts": {

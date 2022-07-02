@@ -3,7 +3,7 @@ Aurelius Lim - S11
 Gavin Tan - S11
 Sean Caoile - S12	
 
-## WEB APPLICATION PROPOSAL: Game Library
+# WEB APPLICATION PROPOSAL: Game Library
 
 ## FEATURES
 

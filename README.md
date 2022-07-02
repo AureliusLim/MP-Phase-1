@@ -26,10 +26,10 @@ PCS Game Manager is a game library built for people who play video games. This p
 - https://mp-phase3.herokuapp.com/
 
 ## Local Set Up
-1. MongoDB is installed and running.
+1. MongoDB and NodeJS is installed and running.
 2. Run npm install in Command Prompt
-3. Execute **node server.js** to get the application running
-4. Type **http://localhost:3000** in the browser.
+4. Execute **node server.js** to get the application running
+5. Type **http://localhost:3000** in the browser.
 
 ## Designers
 - Sean Caoile

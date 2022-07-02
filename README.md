@@ -23,7 +23,7 @@ PCS Game Manager is a game library built for people who play video games. This p
 - Express
 
 ## Link to HEROKU APP
--https://mp-phase3.herokuapp.com/
+- https://mp-phase3.herokuapp.com/
 
 ## Local Set Up
 1. MongoDB is installed and running.
